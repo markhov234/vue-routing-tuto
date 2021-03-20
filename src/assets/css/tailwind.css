@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn{
+    @apply bg-blue-700 rounded-lg border-gray-700 p-8;
+}
