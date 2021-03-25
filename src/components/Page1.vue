@@ -1,6 +1,6 @@
 <template>
 <div class="flex">
-    <leftMenu v-on:changeState='changerEtat'>
+    <leftMenu v-on:changeStateCont='changerEtatCont' v-on:changeStateInt="changerEtatInt">
     </leftMenu>
     <div class=" mx-auto w-8/12 flex-wrap justify-around">
         <intro v-if="stateIntro"></intro>
@@ -32,8 +32,18 @@ export default {
         intro
     },
     methods: {
-        changerEtat: function (valuefromLeftMenu) {
+        changerEtatCont: function (valuefromLeftMenu) {
             this.stateControls = valuefromLeftMenu;
+            this.stateIntro=false;
+            console.log('allo je suis dans controls')
+
+        },
+         changerEtatInt: function (valuefromLeftMenu) {
+            this.stateIntro = valuefromLeftMenu;
+            this.stateControls=false;
+                console.log('allo je suis dans Intro')
+
+
         }
     }
 
