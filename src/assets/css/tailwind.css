@@ -12,7 +12,15 @@
     @apply bg-pink-700
 }
 
-.btn.active {
+.btn.router-link-exact-active {
     
     @apply bg-pink-700 transition ease-in-out duration-150
+}
+
+.iconsUser{
+    @apply w-50 h-50
+}
+
+#id{
+    height:100%;
 }
