@@ -5,5 +5,14 @@
 @tailwind utilities;
 
 .btn{
-    @apply bg-blue-700 rounded-lg border-gray-700 p-8;
+    @apply py-1 text-white w-full m-5 text-xl font-bold text-center w-36 border-4 border-pink-700 transition ease-in-out duration-150
+}
+
+.btn:hover{
+    @apply bg-pink-700
+}
+
+.btn.active {
+    
+    @apply bg-pink-700 transition ease-in-out duration-150
 }
