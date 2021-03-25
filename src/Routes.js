@@ -1,6 +1,8 @@
 import Accueil from './components/Accueil.vue'
-import Page1 from './components/Page1.vue'
-import Page2 from './components/Page2.vue'
+import Controls from './components/Controls.vue'
+import UserInterface from './components/UserInterface.vue'
+
+
 
 
 export default [{
@@ -8,12 +10,13 @@ export default [{
         component: Accueil
     },
     {
-        path: '/page1',
-        component: Page1
+        path: '/Controls',
+        component: Controls,
+        props: true,
     },
     {
-        path: '/page2',
-        component: Page2
-    }
+        path: '/UserInterface',
+        component: UserInterface,
+    },
 
 ]

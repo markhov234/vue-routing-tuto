@@ -4,7 +4,9 @@
         "description": " This is an introduction tutorial to quickly show you around Los Santos and Mafia City Roleplay.If you find anything you feel would benefit new players, or are confused onanything please ask on the #Support channel on discord."
     },
     "user": {
-        "titre": "User interfaces",
-        "description": "Wheel Interaction / B Menu. Throughout your entire stay in MCRP you will be using the Interaction Menu. The Interaction Menu is our key to optimize and have fast-paced but immersive roleplay at all times:"
+        "report": {
+            "img_src": "../assets/images/userInterface/menu_b.png",
+            "description": "Wheel Interaction / B Menu. Throughout your entire stay in MCRP you will be using the Interaction Menu. The Interaction Menu is our key to optimize and have fast-paced but immersive roleplay at all times:"
+        }
     }
 }

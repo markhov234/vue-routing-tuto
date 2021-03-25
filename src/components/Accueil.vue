@@ -1,13 +1,15 @@
 <template>
-<div class=" sm:container mx-3 sm:mx-auto border-gray-700 border-2">
-
-    <h1 class=" text-center w-full  p-5 text-4xl bg-gray-400 text-blue-700 mb-3">{{lesTextes.intro.titre}}</h1>
-    <p class="mx-3 font-ubuntu">{{lesTextes.intro.description}}</p>
-
+<div class="flex h-full">
+        <leftMenu name="Intro"></leftMenu>
+       <div class=" mx-auto w-8/12 flex-wrap justify-around">
+    <h1 class="text-3xl font-bold text-center my-5">Introduction to mafia city</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quos magnam consequatur a fugit, reprehenderit omnis temporibus architecto deleniti, perspiciatis voluptates, ipsam fugiat ex itaque earum velit aperiam officia eum.</p>
+</div>
 </div>
 </template>
 
 <script>
+import leftMenu from './LeftMenu'
 import texte from './json/texte.json'
 
 export default {
@@ -17,6 +19,9 @@ export default {
 
         }
     },
+    components:{
+        leftMenu,
+    }
 }
 </script>
 
