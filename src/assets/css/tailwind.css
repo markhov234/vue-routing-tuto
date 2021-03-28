@@ -21,6 +21,6 @@
     @apply w-50 h-50
 }
 
-#id{
-    height:100%;
+html{
+    @apply bg-gray-200
 }

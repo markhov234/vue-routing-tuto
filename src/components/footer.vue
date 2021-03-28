@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <div class=" h-10 bg-gray-700">
+        <div class=" h-10 bg-gray-900">
 
         </div>
     </footer>
