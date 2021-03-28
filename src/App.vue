@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full" id="app">
+  <div class="h-full select-none" id="app">
 <router-view></router-view>
 <footerBas></footerBas>
   </div>

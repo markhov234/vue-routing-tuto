@@ -1,9 +1,11 @@
 <template>
 <div class="flex h-full">
         <leftMenu name="Intro"></leftMenu>
-       <div class=" mx-auto w-8/12 flex-wrap justify-around">
-    <h1 class="text-3xl font-bold text-center my-5">Introduction to mafia city</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quos magnam consequatur a fugit, reprehenderit omnis temporibus architecto deleniti, perspiciatis voluptates, ipsam fugiat ex itaque earum velit aperiam officia eum.</p>
+       <div class=" flex flex-wrap mx-auto w-9/12">
+       <img  class="max-h-mcLogo max-w-mcLogo w-auto h-auto mx-auto my-5 " src="../assets/images/intro/mafia_logo.png" alt="">
+<p class="mx-5 text-2xl font-bold">This is an introduction tutorial to quickly show you around Los Santos and Mafia City Roleplay.
+If you find anything you feel would benefit new players, or are confused on anything please ask on the #Support channel on discord. 
+</p>
 </div>
 </div>
 </template>
