@@ -1,5 +1,5 @@
 <template>
-<div class="flex h-full">
+<div class="flex">
         <leftMenu name="Intro"></leftMenu>
        <div class=" flex flex-wrap mx-auto w-9/12">
        <img  class="max-h-mcLogo max-w-mcLogo w-auto h-auto mx-auto my-5 " src="../assets/images/intro/mafia_logo.png" alt="">

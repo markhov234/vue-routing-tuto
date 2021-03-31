@@ -8,8 +8,11 @@
         <router-link class="btn" to="UserInterface">User Interface</router-link>
         <router-link class="btn" to="Commands">Commands</router-link>
         <router-link class="btn" to="Blips">Blips</router-link>
-
-
+        <router-link class="btn" to="Jobs">Jobs</router-link>
+        <router-link class="btn" to="Communication">Communication</router-link>
+        <router-link class="btn" to="Faqs">Faqs</router-link>
+        <router-link class="btn" to="FirstStep">Your First Steps</router-link>
+        <router-link class="btn" to="Rules">Rules</router-link>
     </div>
 
 </div>

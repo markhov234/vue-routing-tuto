@@ -8,12 +8,25 @@
     @apply py-1 text-white w-full m-5 text-xl font-bold text-center w-36 border-4 border-pink-700 transition ease-in-out duration-150 select-none
 }
 
-.btn:hover{
+.btnJob {
+    @apply py-1 text-white m-5 text-xl font-bold text-center w-1/5 bg-black transition ease-in-out duration-150 select-none
+}
+
+.btn:hover {
     @apply bg-pink-700
 }
 
+.btnJob:hover {
+    @apply bg-pink-700
+}
+
+.btnJob.active {
+
+    @apply bg-pink-700 transition ease-in-out duration-150
+}
+
 .btn.router-link-exact-active {
-    
+
     @apply bg-pink-700 transition ease-in-out duration-150
 }
 
